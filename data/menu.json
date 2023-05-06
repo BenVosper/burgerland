@@ -1,4 +1,4 @@
 [
-  {"id": 1, "name": "Burger", "price": 5.99},
-  {"id": 1, "name": "Fries", "price": 2.59}
+  { "id": 1, "name": "Burger", "price": 5.99, "calories": 1000 },
+  { "id": 2, "name": "Fries", "price": 2.59, "calories": 500 }
 ]
