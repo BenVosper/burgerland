@@ -1,0 +1,25 @@
+{
+  "name": "benvosper.github.io",
+  "version": "0.0.1",
+  "description": "https://benvosper.com",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^2.8.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-formatting": "npx prettier --check projects/*.html src/* *.html",
+    "fix-formatting": "npx prettier -w src/* *.html",
+    "dev": "npx http-server -p 8000 . -c-1 --cors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenVosper/BenVosper.github.io.git"
+  },
+  "author": "Ben Vosper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenVosper/BenVosper.github.io/issues"
+  },
+  "homepage": "https://github.com/BenVosper/BenVosper.github.io#readme"
+}
